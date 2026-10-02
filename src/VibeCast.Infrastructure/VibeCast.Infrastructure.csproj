@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" />
+    <!-- <PackageReference Include="Azure.AI.OpenAI" Version="2.9.0-beta.1" /> -->
+    <PackageReference Include="Microsoft.Extensions.AI"  />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI"/>
+    <PackageReference Include="OpenAI"/>
+    <PackageReference Include="Azure.AI.OpenAI"/>
+
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VibeCast.Application\VibeCast.Application.csproj" />
+    <ProjectReference Include="..\VibeCast.Domain\VibeCast.Domain.csproj" />
+  </ItemGroup>
+</Project>

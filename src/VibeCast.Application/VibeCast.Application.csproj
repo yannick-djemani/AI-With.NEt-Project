@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup>  <UserSecretsId>c82b7cb6-8f29-4947-a8ff-49387e77ade0</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VibeCast.Domain\VibeCast.Domain.csproj" />
+  </ItemGroup>
+</Project>
